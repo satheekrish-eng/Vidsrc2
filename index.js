@@ -1,6 +1,6 @@
 const { addonBuilder, serveHTTP, getRouter } = require('stremio-addon-sdk');
 
-const VIDSRC_BASE = 'https://vidsrc.in';
+const VIDSRC_BASE = 'https://vidsrcme.ru';
 
 const manifest = {
   id: 'community.vidsrc',
