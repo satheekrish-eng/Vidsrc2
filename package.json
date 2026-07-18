@@ -1,0 +1,26 @@
+{
+  "name": "vidsrc-stremio-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon that streams movies and TV shows via the VidSrc API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "vidsrc",
+    "streaming"
+  ],
+  "license": "MIT"
+}
